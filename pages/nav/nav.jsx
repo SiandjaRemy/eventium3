@@ -3,31 +3,31 @@ import React from 'react'
 const Nav = () => {
   return (
     <div className='bg-black' id='home'>
-        <div className='flex justify-between items-center px-40 py-5 mx-20'>
+        <div className='md:flex justify-between items-center lg:px-40 py-4 lg:mx-20 px-10'>
             <div className="logo flex justify-evenly items-center text-2xl p-2 h-12 bg-white rounded">
                 <img src="../../images/bickdrim logo.png" alt="" className=''/>
             </div>
-            <div className="logo flex justify-evenly items-center text-2xl p-2">
-                <div className="link border-b border-blue-800 px-5 py-3">
-                <a href='#home' className='text-lg text-white'>Home</a>
+            <div className="md:flex justify-evenly items-center text-2xl p-2 sm:bg-red-600 md:bg-blue-700 lg:bg-orange-500 xl:bg-slate-500 2xl:bg-white">
+                <div className="link border-b border-blue-800 lg:px-5 px-3 font-semibold py-3">
+                <a href='#home' className='lg:text-lg text-sm text-white'>Home</a>
                 </div>
-                <div className="link px-5 py-3">
-                    <a href='#about' className='text-lg text-white'>About</a>
+                <div className="link lg:px-5 px-3 font-semibold py-3">
+                    <a href='#about' className='lg:text-lg text-sm text-white'>About</a>
                 </div>
-                <div className="link px-5 py-3">
-                    <a href='#speaker' className='text-lg text-white'>Speakers</a>
+                <div className="link lg:px-5 px-3 font-semibold py-3">
+                    <a href='#speaker' className='lg:text-lg text-sm text-white'>Speakers</a>
                 </div>
-                <div className="link px-5 py-3">
-                    <a href='#agenda' className='text-lg text-white'>Agenda</a>
+                <div className="link lg:px-5 px-3 font-semibold py-3">
+                    <a href='#agenda' className='lg:text-lg text-sm text-white'>Agenda</a>
                 </div>
-                <div className="link px-5 py-3">
-                    <a href='#partner' className='text-lg text-white'>Partner</a>
+                <div className="link lg:px-5 px-3 font-semibold py-3">
+                    <a href='#partner' className='lg:text-lg text-sm text-white'>Partner</a>
                 </div>
-                <div className="link px-5 py-3">
-                    <a href='#pricing' className='text-lg text-white'>Tickets</a>
+                <div className="link lg:px-5 px-3 font-semibold py-3">
+                    <a href='#pricing' className='lg:text-lg text-sm text-white'>Tickets</a>
                 </div>
-                <div className="link px-5 py-3">
-                    <a href='#contact' className='text-lg text-white'>Contact</a>
+                <div className="link lg:px-5 px-3 font-semibold py-3">
+                    <a href='#contact' className='lg:text-lg text-sm text-white'>Contact</a>
                 </div>
                 
             </div>

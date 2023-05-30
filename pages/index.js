@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
-import Main from './main/main'
+import IndexPage from './main/indexPage'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -13,7 +13,7 @@ export default function Home({}) {
         <title>Eventium</title>
         <meta name="keywords" content='v, Drel, Genius'/>
       </Head>
-      <Main />
+      <IndexPage />
     </main>
   )
 }
